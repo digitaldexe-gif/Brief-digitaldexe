@@ -27,7 +27,7 @@ const Hero: React.FC = () => {
             className="mb-12 flex justify-center"
           >
              <div className="px-8 py-3 rounded-full border border-slate-200 dark:border-white/10 bg-white/50 dark:bg-white/5 backdrop-blur-md text-brand-blue font-bold tracking-[0.5em] uppercase text-xs shadow-[0_0_20px_rgba(0,122,255,0.1)]">
-                Dossier Digital v3.1
+                Brief Digital
              </div>
           </motion.div>
           

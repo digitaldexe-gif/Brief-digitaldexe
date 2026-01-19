@@ -30,7 +30,7 @@ export const MarketingBG = () => (
 );
 
 export const VideoBG = () => (
-  <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none bg-black">
+  <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none bg-white dark:bg-black transition-colors duration-500">
     {/* Cinematic Lens Flares */}
     <motion.div 
         animate={{ x: ['-100%', '200%'] }}
@@ -38,7 +38,7 @@ export const VideoBG = () => (
         className="absolute top-1/3 left-0 w-full h-[200px] bg-gradient-to-r from-transparent via-brand-purple/20 to-transparent skew-x-12 blur-3xl"
     />
     
-    <div className="absolute inset-0 opacity-30" style={{
+    <div className="absolute inset-0 opacity-10 dark:opacity-30" style={{
       backgroundImage: 'linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06))',
       backgroundSize: '100% 4px, 6px 100%'
     }} />

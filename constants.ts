@@ -15,7 +15,9 @@ import {
   Cpu,
   Zap,
   Layers,
-  Server
+  Server,
+  Database,
+  MessageCircle
 } from 'lucide-react';
 
 export const BRAND_NAME = "DigitalDexe";
@@ -77,7 +79,7 @@ export const SEO_SLIDES = [
   }
 ];
 
-// Section 2: Soluciones de IA (5 Items)
+// Section 2: Soluciones de IA (6 Items)
 export const AI_SLIDES = [
   {
     id: 'ai-1',
@@ -128,10 +130,20 @@ export const AI_SLIDES = [
     tags: ["Audit", "Strategy", "Implementation"],
     color: "from-pink-500 to-rose-500",
     accent: "pink"
+  },
+  {
+    id: 'ai-6',
+    title: "Integración CRM & ERP",
+    subtitle: "Contexto en Tiempo Real",
+    description: "Conexión directa e integración con tu software de gestión empresarial. Tu asistente de voz consulta historiales y datos en vivo mientras interactúa.",
+    icon: Database,
+    tags: ["API Connect", "Custom Integration", "Real-time DB"],
+    color: "from-cyan-500 to-blue-600",
+    accent: "cyan"
   }
 ];
 
-// Section 3: Marketing & Publicidad (4 Items - Growth Hacking removed)
+// Section 3: Marketing & Publicidad (5 Items)
 export const MARKETING_SLIDES = [
   {
     id: 'mkt-1',
@@ -172,6 +184,16 @@ export const MARKETING_SLIDES = [
     tags: ["Reviews", "Social Listening", "PR"],
     color: "from-indigo-500 to-purple-500",
     accent: "indigo"
+  },
+  {
+    id: 'mkt-5',
+    title: "Social Engagement IA",
+    subtitle: "Cualificación Automática",
+    description: "IA que responde comentarios en Meta y Google Maps al instante. No solo interactúa, sino que cualifica la intención de compra del usuario.",
+    icon: MessageCircle,
+    tags: ["Lead Scoring", "Auto-Reply", "Qualifying"],
+    color: "from-emerald-500 to-teal-400",
+    accent: "emerald"
   }
 ];
 

@@ -12,10 +12,10 @@ const Contact: React.FC = () => {
 
       <div className="container mx-auto relative z-10 max-w-7xl">
         <div className="text-center mb-28">
-            <span className="text-brand-blue font-mono tracking-[0.8em] text-xl mb-10 block uppercase font-bold">Protocolo de Cierre</span>
+            <span className="text-brand-blue font-mono tracking-[0.8em] text-xl mb-10 block uppercase font-bold">Siguientes Pasos</span>
             <h2 className="text-[12vw] md:text-[10vw] font-black leading-none mb-12 tracking-tighter font-display uppercase text-slate-900 dark:text-white">
                 ¿LISTO PARA<br />
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-blue via-brand-green to-brand-orange">ACTIVAR?</span>
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-blue via-brand-green to-brand-orange">COMENZAR?</span>
             </h2>
         </div>
 

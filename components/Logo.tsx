@@ -9,7 +9,7 @@ const Logo: React.FC = () => {
         - "hidden dark:block" muestra logo-white.png en modo oscuro (fondo negro).
         Asegúrate de tener estos archivos en tu carpeta public/.
       */}
-      <div className="relative h-12 md:h-16 w-auto">
+      <div className="relative h-16 md:h-28 w-auto transition-all duration-300">
         {/* Versión para fondo claro (letras oscuras) */}
         <img 
           src="/logo-black.png" 
